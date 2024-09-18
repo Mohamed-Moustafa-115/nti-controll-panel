@@ -1,0 +1,36 @@
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(56,38,115,255);
+    color: whitesmoke;
+    height: 20rem;
+}
+
+footer a
+{
+    font-size: 100%;
+    height: 2.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+footer a:hover
+{
+    color: rgba(0,194,169,255);
+    transition-duration: .3s;
+}
+.contact
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    max-width: 25%;
+}
+.contact div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

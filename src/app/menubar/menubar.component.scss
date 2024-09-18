@@ -1,0 +1,26 @@
+li{
+    list-style: none;
+    font-size: larger;
+    margin: 1rem 0;
+}
+h3{
+    font-size: 2rem;
+}
+.offcanvas-start{
+    background-color: rgba(56,38,115,255);
+    a:hover{
+        color: rgba(0,194,169,255);
+    }
+    button:hover{
+        color: rgba(0,194,169,255);
+    }
+}
+
+
+nav{
+    background-color: rgba(56,38,115,255) !important;
+    height: 3.2rem;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
